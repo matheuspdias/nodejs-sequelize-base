@@ -13,4 +13,9 @@
   $ yarn ou npm install
   # Inicie a aplicação com o nodemon
   $ npm run startdev
+  # Configura o seu banco de dados na pasta database
+  $ const connection = new sequelize('DB_NAME', 'USER_NAME', 'USER_PASS', {
+    host: 'localhost',
+    dialect: 'mysql'
+});
 ```
